@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 1</title>
+    <style>
+        form 
+        {
+          width: 300px;
+          margin: 0 auto; 
+        }
+        label 
+        {
+          display: inline-block; 
+          width: 120px; 
+        }
+      </style>
+</head>
+<body>
+        <form  action = "#", method="post" , name="form" >  
+            <h3>  THÔNG TIN ĐĂNG NHẬP  </h3>
+            <label>Email</label>
+            <input type="email", name="email" >
+            <br>
+            <label>Mật khẩu</label>
+            <input type="password", name = "matkhau">
+            <br>
+            <label>Nhập lại mật khâủ </label>
+            <input type="password", name = "nhaplaimatkhau">
+            <h3>  THÔNG TIN CÁ NHÂN  </h3>
+            <label>*Họ và tên </label>
+            <input type="text", name="hovaten">
+            <br>
+            <label>Phái</label>
+            <input type ="radio" , value="Nam", name="phai">Nam
+            <input type ="radio" , value="Nu", name="phai">Nữ
+            <br>
+            <label>Ngày sinh </label>
+            <input type ="date", name ="ngaysinh">
+            <br>
+            <label>Tuổi </label>
+            <input type ="number", name ="tuoi",  min="1" max="150">
+            <br>
+            <label>*Số điện thoại </label>
+            <input type ="Text", name ="sodienthoai">
+            <br>
+            <label>Số di động </label>
+            <input type ="Text", name ="sodidong">
+            <br>
+            <label>Sở thích </label>
+            <br>
+            <input type="checkbox",  name="sothich1" value="nghenhac">
+            <label> Nghe nhạc </label><br>
+            <input type="checkbox" , name="sothich2" value="xemphim">
+            <label > Xem phim</label><br>
+            <input type="checkbox" , name="sothich3" value="choithethao">
+            <label> Chơi thể thao</label><br>
+            <h3>  ĐỊA CHỈ  </h3>
+            <label>Quốc gia </label>
+            <select name = "quoctich">
+                    <option value="vietnam">    Việt Nam    </option>
+                    <option value="trungquoc">  Trung Quốc  </option>
+                    <option value="hanquoc">    Hàn Quốc    </option>
+                    <option value="thailan">    Thái Lan    </option>
+            </select>
+            <br>
+            <label>Tỉnh/Thành phố </label>
+            <select name = "tinh">
+                    <option value="hcm">    Hồ Chí Minh   </option>
+                    <option value="hanoi">  Hà Nội  </option>
+                    <option value="danang">   Đà Nẵng    </option>
+                    <option value="binhdinh">    Bình Định   </option>
+            </select>
+            <br>
+            <label>Quận/Huyện</label>
+            <select  name="huyen">
+                <option value="hochiminhquanthuduc">Thủ Đức</option>
+                <option value="hochiminhquan1">Quận 1</option>
+                <option value="hochiminhquan2">Quận 2</option>
+                <option value="hochiminhquan3">Quận 3</option>
+                <option value="hochiminhquan4">Quận 4</option>
+                <option value="hochiminhquan5">Quận 5</option>
+                <option value="hochiminhquan6">Quận 6</option>
+                <option value="hochiminhquan6">Quận 7</option>
+                <option value="hochiminhquan8">Quận 8</option>
+                <option value="hochiminhquan9">Quận 9</option>
+                <option value="hochiminhquan10">Quận 10</option>
+            </select>
+            <br>
+            <label>Địa chỉ nhà</label>
+            <textarea name="diachinha">  </textarea>
+            <br>
+            <input type="submit",name="nut", value="Đăng ký">
+            <input type="submit",name="nut", value="Xóa form">
+        </form>
+</body>
+</html>

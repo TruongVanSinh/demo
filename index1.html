@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2</title>
+    <style>
+        form 
+        {
+          width: 300px;
+          margin: 0 auto; 
+        }
+        .form-group 
+        {
+          margin-bottom: 2px; 
+        }
+        label 
+        {
+          display: inline-block; 
+          width: 120px; 
+        }
+      </style>
+</head>
+<body>
+    <form  action = "#", method="post" , name="form" >  
+        <h2>  TrươngVănSinh_21110919  </h2>
+        <div class="form-group">
+        <label>Salutation</label>
+        <br>
+        <select name = "loichao">
+            <option value="none">    --None__   </option>
+        </select>
+        </div>
+        <br>
+        <div class="form-group">
+        <label>First name:</label>
+        <input type="text", name="firstname" >
+        </div>
+        <br>
+        <div class="form-group">
+        <label>Last name:</label>
+        <input type="text", name = "lastname">
+        </div>
+        <br>
+        <div class="form-group">
+        <label>Gender:</label>
+        <input type ="radio" , value="male", name="Gender">Male
+        <input type ="radio" , value="female", name="Gender">Female
+        </div>
+        <br>
+        <div class="form-group">
+        <label>Email: </label>
+        <input type="email", name="email" >
+        </div>
+        <br>
+        <div class="form-group">
+        <label>Date of Birth: </label>
+        <input type="date", name="date" >
+        </div>
+        <br>
+        <label>Address: </label>
+        <br>
+        <div class="form-group">
+        <textarea name="diachi">  </textarea>
+        </div>
+        <br>
+        <input type="submit",value="Submit", name = "sunmit">
+    </form>
+    
+</body>
+</html>
